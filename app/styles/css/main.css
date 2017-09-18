@@ -1,0 +1,241 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.display {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ======================================================== dribbble ======================================================== */
+.dribbble {
+  width: 320px;
+  height: 568px;
+  border: 1px solid #000;
+  position: relative;
+}
+
+/* <dribbble header> */
+.dribbble-header {
+  width: 100%;
+  height: 8%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ff008c;
+  /*background-color: hsl(0, 0%, 95%);*/
+}
+.dribbble-header-element {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: #000;
+}
+.dribbble-header-logo {
+  width: 150px;
+  height: 30px;
+  border-radius: 0;
+}
+/* </dribbble header> */
+
+/* <dribbble filterbar> */
+.dribbble-filterbar {
+  width: 100%;
+  height: 8%;
+  display: flex;
+  border-bottom: 1px solid hsl(0,0%,95%);
+}
+.dribbble-filterbar-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dribbble-filterbar-views,
+.dribbble-filterbar-time {
+  width: 35%;
+  height: 100%;
+  justify-content: space-around;
+}
+.dribbble-filterbar-singlerow,
+.dribbble-filterbar-multirow {
+  width: 15%;
+  height: 100%;
+}
+.filterName {
+  font-size: 0.8rem;
+}
+.filterDropdown {
+  width: 10px;
+  height: 10px;
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+  transform: rotateZ(-45deg);
+  margin-top: -6px;
+  margin-left: -25px;
+}
+.arrangementBtn {
+  width: 30px;
+  height: 30px;
+  background-color: hsl(0, 0%, 70%);
+  position: relative;
+}
+.dribbble-filterbar-multirow .arrangementBtn::before {
+  display: block;
+  content: "";
+  width: 2px;
+  height: 30px;
+  position: absolute;
+  left: 14px;
+  top: 0px;
+  background-color: #FFF;
+}
+.dribbble-filterbar-multirow .arrangementBtn::after {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 2px;
+  position: absolute;
+  top: 14px;
+  left: 0px;
+  background-color: #FFF;
+}
+/* </dribbble filterbar> */
+
+/* <dribbble navbar> */
+.dribbble-navbar {
+  width: 100%;
+  height: 8%;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid hsl(0, 0%, 95%);
+  /*background-color: hsl(0, 0%, 95%);*/
+}
+.dribbble-navbar-element {
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*border: 1px solid #000;
+  border-radius: 100%;*/
+}
+.dribbble-navbar-personal {
+  background-image: url(../img/personal.png);
+}
+.dribbble-navbar-popular {
+  background-image: url(../img/popular-selected.png);
+}
+.dribbble-navbar-following {
+  background-image: url(../img/following.png);
+}
+.dribbble-navbar-more {
+  background-image: url(../img/more.png);
+}
+/* </dribbble navbar> */
+
+/* <dribbble view> */
+.dribbble-view {
+  width: 100%;
+  height: 76%;
+}
+.dribbble-view-content {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+.artwork {
+  /*width: 100%;
+  height: 300px;*/
+  /*background-color: red;*/
+}
+.artwork-username {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+}
+.artwork-username-pic {
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  background-color: #000;
+  margin-left: 10px;
+}
+.artwork-username-account {
+  width: 100px;
+  text-align: left;
+  border: 0;
+  padding: 0;
+  margin-left: 10px;
+}
+.artwork-cover {
+  width: 100%;
+  height: 70%;
+  background-color: hsl(0, 0%, 94%);
+}
+.artwork-info {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.artwork-info-element {
+  width: 33.3%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.artwork-info-element-icon {
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.artwork-info-element-sight {
+  background-image: url(../img/sight.png);
+}
+.artwork-info-element-message {
+  background-image: url(../img/message.png);
+}
+.artwork-info-element-like {
+  background-image: url(../img/like.png);
+}
+.artwork-info-element-count {
+  width: 40px;
+  text-align: left;
+  border: 0;
+  padding: 0;
+  margin-left: 5px;
+}
+.single-display {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 300px;
+  grid-row-gap: 5px;
+}
+.multi-display {
+  display: grid;
+  grid-template-columns: 49% 49%;
+  grid-template-rows: 150px 150px;
+  grid-row-gap: 5px;
+  justify-content: space-between;
+}
+/* </dribbble view> */
