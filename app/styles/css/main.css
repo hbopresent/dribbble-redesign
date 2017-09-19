@@ -1,3 +1,8 @@
+@@font-face {
+  font-family: Pacifico;
+  src: url(../fonts/Pacifico-Regular.ttf);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -6,6 +11,7 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+  background-color: #000;
 }
 .display {
   width: 100%;
@@ -20,8 +26,13 @@ body {
   width: 320px;
   height: 568px;
   border: 1px solid #000;
+  background-color: #FFF;
   position: relative;
 }
+
+
+
+
 
 /* <dribbble header> */
 .dribbble-header {
@@ -30,21 +41,41 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #ff008c;
+  background-color: #ef0083;
   /*background-color: hsl(0, 0%, 95%);*/
 }
 .dribbble-header-element {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
+  /*border-radius: 100%;*/
+  /*background-color: #000;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.dribbble-header-personal {
   border-radius: 100%;
-  background-color: #000;
+  background-image: url(../img/icon/head.png);
 }
 .dribbble-header-logo {
   width: 150px;
   height: 30px;
   border-radius: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  font-family: Pacifico;
+  font-size: 1.8rem;
+}
+.dribbble-header-search {
+  background-image: url(../img/icon/search.png);
 }
 /* </dribbble header> */
+
+
+
+
 
 /* <dribbble filterbar> */
 .dribbble-filterbar {
@@ -71,43 +102,49 @@ body {
 }
 .filterName {
   font-size: 0.8rem;
+  color: #666666;
 }
 .filterDropdown {
   width: 10px;
   height: 10px;
-  border-left: 1px solid #000;
-  border-bottom: 1px solid #000;
+  border-left: 1px solid #666666;
+  border-bottom: 1px solid #666666;
   transform: rotateZ(-45deg);
   margin-top: -6px;
-  margin-left: -25px;
+  margin-left: -35px;
 }
 .arrangementBtn {
-  width: 30px;
-  height: 30px;
-  background-color: hsl(0, 0%, 70%);
+  width: 20px;
+  height: 20px;
+  background-color: #666666;
   position: relative;
+  border-radius: 2px;
 }
 .dribbble-filterbar-multirow .arrangementBtn::before {
   display: block;
   content: "";
   width: 2px;
-  height: 30px;
+  height: 20px;
   position: absolute;
-  left: 14px;
+  left: 9px;
   top: 0px;
   background-color: #FFF;
 }
 .dribbble-filterbar-multirow .arrangementBtn::after {
   display: block;
   content: "";
-  width: 30px;
+  width: 20px;
   height: 2px;
   position: absolute;
-  top: 14px;
+  top: 9px;
   left: 0px;
   background-color: #FFF;
 }
 /* </dribbble filterbar> */
+
+
+
+
 
 /* <dribbble navbar> */
 .dribbble-navbar {
@@ -132,18 +169,22 @@ body {
   border-radius: 100%;*/
 }
 .dribbble-navbar-personal {
-  background-image: url(../img/personal.png);
+  background-image: url(../img/icon/personal.png);
 }
 .dribbble-navbar-popular {
-  background-image: url(../img/popular-selected.png);
+  background-image: url(../img/icon/popular-selected.png);
 }
 .dribbble-navbar-following {
-  background-image: url(../img/following.png);
+  background-image: url(../img/icon/following.png);
 }
 .dribbble-navbar-more {
-  background-image: url(../img/more.png);
+  background-image: url(../img/icon/more.png);
 }
 /* </dribbble navbar> */
+
+
+
+
 
 /* <dribbble view> */
 .dribbble-view {
@@ -186,7 +227,41 @@ body {
 .artwork-cover {
   width: 100%;
   height: 70%;
-  background-color: hsl(0, 0%, 94%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  /* height: 100%; */
+}
+.artwork-project1 {
+  background-image: url(../img/project-img/project1.png);
+}
+.artwork-project2 {
+  background-image: url(../img/project-img/project2.png);
+}
+.artwork-project3 {
+  background-image: url(../img/project-img/project3.png);
+}
+.artwork-project4 {
+  background-image: url(../img/project-img/project4.png);
+}
+.artwork-project5 {
+  background-image: url(../img/project-img/project5.png);
+}
+.artwork-project6 {
+  background-image: url(../img/project-img/project6.png);
+}
+.artwork-project7 {
+  background-image: url(../img/project-img/project7.png);
+}
+.artwork-project8 {
+  background-image: url(../img/project-img/project8.png);
+}
+.artwork-project9 {
+  background-image: url(../img/project-img/project9.png);
+}
+.artwork-project10 {
+  background-image: url(../img/project-img/project10.png);
 }
 .artwork-info {
   width: 100%;
@@ -203,20 +278,20 @@ body {
   align-items: center;
 }
 .artwork-info-element-icon {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
 .artwork-info-element-sight {
-  background-image: url(../img/sight.png);
+  background-image: url(../img/icon/sight.png);
 }
 .artwork-info-element-message {
-  background-image: url(../img/message.png);
+  background-image: url(../img/icon/message.png);
 }
 .artwork-info-element-like {
-  background-image: url(../img/like.png);
+  background-image: url(../img/icon/like.png);
 }
 .artwork-info-element-count {
   width: 40px;
@@ -224,17 +299,18 @@ body {
   border: 0;
   padding: 0;
   margin-left: 5px;
+  color: #999899;
 }
 .single-display {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 300px;
-  grid-row-gap: 5px;
+  grid-template-rows: 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px;
+  grid-row-gap: 50px;
 }
 .multi-display {
   display: grid;
   grid-template-columns: 49% 49%;
-  grid-template-rows: 150px 150px;
+  grid-template-rows: 150px 150px 150px 150px 150px;
   grid-row-gap: 5px;
   justify-content: space-between;
 }

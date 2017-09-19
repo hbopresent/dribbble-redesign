@@ -11,7 +11,7 @@
       <div class="dribbble">
         <div class="dribbble-header">
           <div class="dribbble-header-element dribbble-header-personal"></div>
-          <div class="dribbble-header-element dribbble-header-logo"></div>
+          <div class="dribbble-header-element dribbble-header-logo">dribbble</div>
           <div class="dribbble-header-element dribbble-header-search"></div>
         </div>
         <div class="dribbble-filterbar">
@@ -23,11 +23,11 @@
             <div class="filterName">Month</div>
             <div class="filterDropdown"></div>
           </div>
-          <div class="dribbble-filterbar-element dribbble-filterbar-multirow">
-            <span class="arrangementBtn"></span>
+          <div class="dribbble-filterbar-element dribbble-filterbar-multirow" id="multi-switch">
+            <span class="arrangementBtn" id="multi-switch-icon"></span>
           </div>
-          <div class="dribbble-filterbar-element dribbble-filterbar-singlerow">
-            <span class="arrangementBtn"></span>
+          <div class="dribbble-filterbar-element dribbble-filterbar-singlerow" id="single-switch">
+            <span class="arrangementBtn" id="single-switch-icon"></span>
           </div>
         </div>
         <div class="dribbble-navbar">
@@ -37,13 +37,212 @@
           <div class="dribbble-navbar-element dribbble-navbar-more"></div>
         </div>
         <div class="dribbble-view">
-          <div class="dribbble-view-content single-display">
+          <div class="dribbble-view-content single-display" id="viewContent">
+            <!-- project 1 -->
             <div class="artwork">
               <div class="artwork-username">
                 <div class="artwork-username-pic"></div>
                 <input type="text" class="artwork-username-account" value="hk-3345678"/>
               </div>
-              <div class="artwork-cover"></div>
+              <div class="artwork-cover artwork-project1"></div>
+              <div class="artwork-info">
+                <div class="artwork-info-element">
+                  <div class="artwork-info-element-icon artwork-info-element-sight"></div>
+                  <input type="text" class="artwork-info-element-count" value="145"/>
+                </div>
+                <div class="artwork-info-element">
+                  <div class="artwork-info-element-icon artwork-info-element-message"></div>
+                  <input type="text" class="artwork-info-element-count" value="10"/>
+                </div>
+                <div class="artwork-info-element artwork-info-like">
+                  <div class="artwork-info-element-icon artwork-info-element-like"></div>
+                  <input type="text" class="artwork-info-element-count" value="1132"/>
+                </div>
+              </div>
+            </div>
+            <!-- project 2 -->
+            <div class="artwork">
+              <div class="artwork-username">
+                <div class="artwork-username-pic"></div>
+                <input type="text" class="artwork-username-account" value="hk-3345678"/>
+              </div>
+              <div class="artwork-cover artwork-project2"></div>
+              <div class="artwork-info">
+                <div class="artwork-info-element">
+                  <div class="artwork-info-element-icon artwork-info-element-sight"></div>
+                  <input type="text" class="artwork-info-element-count" value="145"/>
+                </div>
+                <div class="artwork-info-element">
+                  <div class="artwork-info-element-icon artwork-info-element-message"></div>
+                  <input type="text" class="artwork-info-element-count" value="10"/>
+                </div>
+                <div class="artwork-info-element artwork-info-like">
+                  <div class="artwork-info-element-icon artwork-info-element-like"></div>
+                  <input type="text" class="artwork-info-element-count" value="1132"/>
+                </div>
+              </div>
+            </div>
+            <!-- project 3 -->
+            <div class="artwork">
+              <div class="artwork-username">
+                <div class="artwork-username-pic"></div>
+                <input type="text" class="artwork-username-account" value="hk-3345678"/>
+              </div>
+              <div class="artwork-cover artwork-project3"></div>
+              <div class="artwork-info">
+                <div class="artwork-info-element">
+                  <div class="artwork-info-element-icon artwork-info-element-sight"></div>
+                  <input type="text" class="artwork-info-element-count" value="145"/>
+                </div>
+                <div class="artwork-info-element">
+                  <div class="artwork-info-element-icon artwork-info-element-message"></div>
+                  <input type="text" class="artwork-info-element-count" value="10"/>
+                </div>
+                <div class="artwork-info-element artwork-info-like">
+                  <div class="artwork-info-element-icon artwork-info-element-like"></div>
+                  <input type="text" class="artwork-info-element-count" value="1132"/>
+                </div>
+              </div>
+            </div>
+            <!-- project 4 -->
+            <div class="artwork">
+              <div class="artwork-username">
+                <div class="artwork-username-pic"></div>
+                <input type="text" class="artwork-username-account" value="hk-3345678"/>
+              </div>
+              <div class="artwork-cover artwork-project4"></div>
+              <div class="artwork-info">
+                <div class="artwork-info-element">
+                  <div class="artwork-info-element-icon artwork-info-element-sight"></div>
+                  <input type="text" class="artwork-info-element-count" value="145"/>
+                </div>
+                <div class="artwork-info-element">
+                  <div class="artwork-info-element-icon artwork-info-element-message"></div>
+                  <input type="text" class="artwork-info-element-count" value="10"/>
+                </div>
+                <div class="artwork-info-element artwork-info-like">
+                  <div class="artwork-info-element-icon artwork-info-element-like"></div>
+                  <input type="text" class="artwork-info-element-count" value="1132"/>
+                </div>
+              </div>
+            </div>
+            <!-- project 5 -->
+            <div class="artwork">
+              <div class="artwork-username">
+                <div class="artwork-username-pic"></div>
+                <input type="text" class="artwork-username-account" value="hk-3345678"/>
+              </div>
+              <div class="artwork-cover artwork-project5"></div>
+              <div class="artwork-info">
+                <div class="artwork-info-element">
+                  <div class="artwork-info-element-icon artwork-info-element-sight"></div>
+                  <input type="text" class="artwork-info-element-count" value="145"/>
+                </div>
+                <div class="artwork-info-element">
+                  <div class="artwork-info-element-icon artwork-info-element-message"></div>
+                  <input type="text" class="artwork-info-element-count" value="10"/>
+                </div>
+                <div class="artwork-info-element artwork-info-like">
+                  <div class="artwork-info-element-icon artwork-info-element-like"></div>
+                  <input type="text" class="artwork-info-element-count" value="1132"/>
+                </div>
+              </div>
+            </div>
+            <!-- project 6 -->
+            <div class="artwork">
+              <div class="artwork-username">
+                <div class="artwork-username-pic"></div>
+                <input type="text" class="artwork-username-account" value="hk-3345678"/>
+              </div>
+              <div class="artwork-cover artwork-project6"></div>
+              <div class="artwork-info">
+                <div class="artwork-info-element">
+                  <div class="artwork-info-element-icon artwork-info-element-sight"></div>
+                  <input type="text" class="artwork-info-element-count" value="145"/>
+                </div>
+                <div class="artwork-info-element">
+                  <div class="artwork-info-element-icon artwork-info-element-message"></div>
+                  <input type="text" class="artwork-info-element-count" value="10"/>
+                </div>
+                <div class="artwork-info-element artwork-info-like">
+                  <div class="artwork-info-element-icon artwork-info-element-like"></div>
+                  <input type="text" class="artwork-info-element-count" value="1132"/>
+                </div>
+              </div>
+            </div>
+            <!-- project 7 -->
+            <div class="artwork">
+              <div class="artwork-username">
+                <div class="artwork-username-pic"></div>
+                <input type="text" class="artwork-username-account" value="hk-3345678"/>
+              </div>
+              <div class="artwork-cover artwork-project7"></div>
+              <div class="artwork-info">
+                <div class="artwork-info-element">
+                  <div class="artwork-info-element-icon artwork-info-element-sight"></div>
+                  <input type="text" class="artwork-info-element-count" value="145"/>
+                </div>
+                <div class="artwork-info-element">
+                  <div class="artwork-info-element-icon artwork-info-element-message"></div>
+                  <input type="text" class="artwork-info-element-count" value="10"/>
+                </div>
+                <div class="artwork-info-element artwork-info-like">
+                  <div class="artwork-info-element-icon artwork-info-element-like"></div>
+                  <input type="text" class="artwork-info-element-count" value="1132"/>
+                </div>
+              </div>
+            </div>
+            <!-- project 8 -->
+            <div class="artwork">
+              <div class="artwork-username">
+                <div class="artwork-username-pic"></div>
+                <input type="text" class="artwork-username-account" value="hk-3345678"/>
+              </div>
+              <div class="artwork-cover artwork-project8"></div>
+              <div class="artwork-info">
+                <div class="artwork-info-element">
+                  <div class="artwork-info-element-icon artwork-info-element-sight"></div>
+                  <input type="text" class="artwork-info-element-count" value="145"/>
+                </div>
+                <div class="artwork-info-element">
+                  <div class="artwork-info-element-icon artwork-info-element-message"></div>
+                  <input type="text" class="artwork-info-element-count" value="10"/>
+                </div>
+                <div class="artwork-info-element artwork-info-like">
+                  <div class="artwork-info-element-icon artwork-info-element-like"></div>
+                  <input type="text" class="artwork-info-element-count" value="1132"/>
+                </div>
+              </div>
+            </div>
+            <!-- project 9 -->
+            <div class="artwork">
+              <div class="artwork-username">
+                <div class="artwork-username-pic"></div>
+                <input type="text" class="artwork-username-account" value="hk-3345678"/>
+              </div>
+              <div class="artwork-cover artwork-project9"></div>
+              <div class="artwork-info">
+                <div class="artwork-info-element">
+                  <div class="artwork-info-element-icon artwork-info-element-sight"></div>
+                  <input type="text" class="artwork-info-element-count" value="145"/>
+                </div>
+                <div class="artwork-info-element">
+                  <div class="artwork-info-element-icon artwork-info-element-message"></div>
+                  <input type="text" class="artwork-info-element-count" value="10"/>
+                </div>
+                <div class="artwork-info-element artwork-info-like">
+                  <div class="artwork-info-element-icon artwork-info-element-like"></div>
+                  <input type="text" class="artwork-info-element-count" value="1132"/>
+                </div>
+              </div>
+            </div>
+            <!-- project 10 -->
+            <div class="artwork">
+              <div class="artwork-username">
+                <div class="artwork-username-pic"></div>
+                <input type="text" class="artwork-username-account" value="hk-3345678"/>
+              </div>
+              <div class="artwork-cover artwork-project10"></div>
               <div class="artwork-info">
                 <div class="artwork-info-element">
                   <div class="artwork-info-element-icon artwork-info-element-sight"></div>
@@ -63,5 +262,7 @@
         </div>
       </div>
     </section>
+
+    <script src="app/script/main.js"></script>
   </body>
 </html>
