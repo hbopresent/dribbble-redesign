@@ -16,7 +16,7 @@ var dribbble = (function() {
 
   function layoutHandler(layoutStyle) {
     if(layoutStyle == "multi") {
-      multiSwitchIcon.style.backgroundColor = "#ef0083";
+      multiSwitchIcon.style.backgroundColor = "#d60c60";
       singleSwitchIcon.style.backgroundColor = "#666666";
       viewContent.classList.remove("single-display");
       viewContent.classList.add("multi-display");
@@ -28,7 +28,7 @@ var dribbble = (function() {
       layoutStyle = "multi";
     }
     else if(layoutStyle == "single") {
-      singleSwitchIcon.style.backgroundColor = "#ef0083";
+      singleSwitchIcon.style.backgroundColor = "#d60c60";
       multiSwitchIcon.style.backgroundColor = "#666666";
       viewContent.classList.add("single-display");
       viewContent.classList.remove("multi-display");

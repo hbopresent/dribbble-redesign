@@ -1,52 +1,52 @@
 {
   "project1": {
-    "user": {"account": "hk-3345678", "pic":"url('app/styles/img/icon/head.png')"},
+    "user": {"account": "Focus Lab", "pic":"url('app/styles/img/project-img/focuslab-icon.png')"},
     "cover": {"pic": "url('app/styles/img/project-img/project1.png')"},
-    "info": {"sight": 33, "message": 44, "like": 55}
+    "info": {"sight": 329, "message": 0, "like": 35}
   },
   "project2": {
-    "user": {"account": "hk-3345678", "pic":"url('app/styles/img/icon/head.png')"},
+    "user": {"account": "Studio-JQ", "pic":"url('app/styles/img/project-img/studio-icon.png')"},
     "cover": {"pic": "url('app/styles/img/project-img/project2.png')"},
-    "info": {"sight": 33, "message": 44, "like": 55}
+    "info": {"sight": 2010, "message": 0, "like": 1}
   },
   "project3": {
-    "user": {"account": "hk-3345678", "pic":"url('app/styles/img/icon/head.png')"},
+    "user": {"account": "Studio-JQ", "pic":"url('app/styles/img/project-img/studio-icon.png')"},
     "cover": {"pic": "url('app/styles/img/project-img/project3.png')"},
-    "info": {"sight": 33, "message": 44, "like": 55}
+    "info": {"sight": 4177, "message": 4, "like": 177}
   },
   "project4": {
-    "user": {"account": "hk-3345678", "pic":"url('app/styles/img/icon/head.png')"},
+    "user": {"account": "UI8", "pic":"url('app/styles/img/project-img/ui8-icon.png')"},
     "cover": {"pic": "url('app/styles/img/project-img/project4.png')"},
-    "info": {"sight": 33, "message": 44, "like": 55}
+    "info": {"sight": 6284, "message": 11, "like": 214}
   },
   "project5": {
-    "user": {"account": "hk-3345678", "pic":"url('app/styles/img/icon/head.png')"},
+    "user": {"account": "Studio-JQ", "pic":"url('app/styles/img/project-img/studio-icon.png')"},
     "cover": {"pic": "url('app/styles/img/project-img/project5.png')"},
-    "info": {"sight": 33, "message": 44, "like": 55}
+    "info": {"sight": 3259, "message": 2, "like": 115}
   },
   "project6": {
-    "user": {"account": "hk-3345678", "pic":"url('app/styles/img/icon/head.png')"},
+    "user": {"account": "Studio-JQ", "pic":"url('app/styles/img/project-img/studio-icon.png')"},
     "cover": {"pic": "url('app/styles/img/project-img/project6.png')"},
-    "info": {"sight": 33, "message": 44, "like": 55}
+    "info": {"sight": 3627, "message": 3, "like": 115}
   },
   "project7": {
-    "user": {"account": "hk-3345678", "pic":"url('app/styles/img/icon/head.png')"},
+    "user": {"account": "Studio-JQ", "pic":"url('app/styles/img/project-img/studio-icon.png')"},
     "cover": {"pic": "url('app/styles/img/project-img/project7.png')"},
-    "info": {"sight": 33, "message": 44, "like": 55}
+    "info": {"sight": 9822, "message": 18, "like": 452}
   },
   "project8": {
-    "user": {"account": "hk-3345678", "pic":"url('app/styles/img/icon/head.png')"},
+    "user": {"account": "Cuberto", "pic":"url('app/styles/img/project-img/cuberto-icon.png')"},
     "cover": {"pic": "url('app/styles/img/project-img/project8.png')"},
-    "info": {"sight": 33, "message": 44, "like": 55}
+    "info": {"sight": 7137, "message": 9, "like": 337}
   },
   "project9": {
-    "user": {"account": "hk-3345678", "pic":"url('app/styles/img/icon/head.png')"},
+    "user": {"account": "UI8", "pic":"url('app/styles/img/project-img/ui8-icon.png')"},
     "cover": {"pic": "url('app/styles/img/project-img/project9.png')"},
-    "info": {"sight": 33, "message": 44, "like": 55}
+    "info": {"sight": 13562, "message": 27, "like": 781}
   },
   "project10": {
-    "user": {"account": "hk-3345678", "pic":"url('app/styles/img/icon/head.png')"},
+    "user": {"account": "Gleb Kuzenetsov", "pic":"url('app/styles/img/project-img/gleb-icon.png')"},
     "cover": {"pic": "url('app/styles/img/project-img/project10.png')"},
-    "info": {"sight": 33, "message": 44, "like": 55}
+    "info": {"sight": 3677, "message": 6, "like": 216}
   }
 }
