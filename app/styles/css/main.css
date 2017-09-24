@@ -21,13 +21,75 @@ body {
   align-items: center;
 }
 
+
+
+
+
+/* ======================================================== iPhone ======================================================== */
+.iphone-info-right {
+  width: 20%;
+  height: 3%;
+  position: absolute;
+  right: 2%;
+  top: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 3;
+}
+.iphone-info-left {
+  width: 18%;
+  height: 3%;
+  position: absolute;
+  left: 3%;
+  top: 2%;
+  z-index: 3;
+}
+.iphone-info-time {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.iphone-info-icon {
+  width: 16px;
+  height: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.iphone-signal-icon {
+  background-image: url(../img/icon/signal.png);
+}
+.iphone-wifi-icon {
+  background-image: url(../img/icon/wifi.png);
+}
+.iphone-battery-icon {
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/icon/battery.png);
+}
+
 /* ======================================================== dribbble ======================================================== */
 .dribbble {
   width: 320px;
-  height: 568px;
-  border: 1px solid #000;
-  background-color: #FFF;
+  height: 640px;
   position: relative;
+  background-image: url(../img/project-img/iphone-body.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.header-split {
+  position: absolute;
+  width: 60%;
+  height: 10%;
+  background-color: #000;
+  left: 20%;
+  top: 0%;
 }
 
 
@@ -37,11 +99,26 @@ body {
 /* <dribbble header> */
 .dribbble-header {
   width: 100%;
-  height: 8%;
+  height: 15%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #d60c60;
+  position: relative;
+  background-image: url(../img/project-img/iphone-header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 2;
+}
+.dribbble-header-info {
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  bottom: 5%;
+  left: 0%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .dribbble-header-element {
   width: 30px;
@@ -79,7 +156,9 @@ body {
   width: 100%;
   height: 8%;
   display: flex;
-  border-bottom: 1px solid hsl(0,0%,95%);
+  /*border-bottom: 1px solid hsl(0,0%,95%);
+  background-color: #FFF;
+  visibility: hidden;*/
 }
 .dribbble-filterbar-element {
   display: flex;
@@ -154,7 +233,9 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border-top: 1px solid hsl(0, 0%, 95%);
+  /*border-top: 1px solid hsl(0, 0%, 95%);
+  background-color: #FFF;
+  visibility: hidden;*/
 }
 .dribbble-navbar-element {
   width: 30px;
@@ -184,7 +265,9 @@ body {
 /* <dribbble view> */
 .dribbble-view {
   width: 100%;
-  height: 76%;
+  height: 69%;
+  /*background-color: #FFF;*/
+  /*visibility: hidden;*/
 }
 .dribbble-view-content {
   width: 100%;
@@ -223,7 +306,7 @@ body {
 .artwork-cover {
   width: 100%;
   height: 70%;
-  background-size: cover;
+  background-size: 99.5% 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
