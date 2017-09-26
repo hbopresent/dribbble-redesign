@@ -8,6 +8,7 @@
     "user": {"account": "Studio-JQ", "pic":"url('app/styles/img/project-img/studio-icon.png')"},
     "cover": {"pic": "url('app/styles/img/project-img/project2.png')"},
     "info": {"sight": 2010, "message": 0, "like": 1}
+
   },
   "project3": {
     "user": {"account": "Studio-JQ", "pic":"url('app/styles/img/project-img/studio-icon.png')"},
